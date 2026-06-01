@@ -222,3 +222,12 @@ The ML detector picks up the flows Suricata missed, classifying them as Brute Fo
 
 - The scripts default to `/opt/ids/` for all files and `/var/log/suricata/eve.json` for Suricata's log. These can be changed via command-line arguments or by editing the `DEFAULT_*` constants at the top of each script.
 - Training was done on 19 Suricata-aligned features. The feature list is saved in `feature_contract.pkl` and must not be changed after training.
+
+
+---
+
+## 👥 Contributors
+
+This project was developed in collaboration between:
+* **Ahmed M. Miqdad** - [@ahmed-m-miqdad](https://github.com/ahmed-m-miqdad)
+* **Abdallah Alnajjar** - [@AbdallahAlnajjar](https://github.com/AbdallahAlnajjar)
